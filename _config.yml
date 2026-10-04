@@ -1,0 +1,93 @@
+---
+booktitle: Proceedings of the 27th Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2011'
+start: &1 2011-07-14
+end: 2011-07-17
+volume: R9
+conference_number: '27'
+published: 2026-10-04
+firstpublished: 2011-07-14
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2011
+month: 0
+cycles: false
+bibtex_editor: Cozman, Fabio and Pfeffer, Avi
+editor:
+- given: Fabio
+  family: Cozman
+- given: Avi
+  family: Pfeffer
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 27th Conference on Uncertainty in Artificial Intelligence
+    Held in Barcelona, Spain on 14-17 July 2011
+
+  Published as Reissue 9 by the Proceedings of Machine Learning Research on 04 October 2026.
+
+  Volume Edited by:
+    Fabio Cozman
+    Avi Pfeffer
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 14--17 Jul
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/r9"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r9
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r9
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2011/
+  location: Barcelona, Spain
+  dates:
+  - *1
+  - 2011-07-15
+  - 2011-07-16
+  - 2011-07-17
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: uai2011_clean.bib
+# Site settings
+# Original source:  uai2011_clean.bib
